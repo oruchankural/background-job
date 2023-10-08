@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z6GpCfw1QY1oBszlelXYCfVXADHbVMOZTEAjKC59r8M=",
+  "Source": "background-job",
+  "BasePath": "_content/background-job",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
