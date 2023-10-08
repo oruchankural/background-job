@@ -17,6 +17,10 @@ This is a basic example of using Quartz.NET as a scheduler in an ASP.NET Core ap
 
 4. Use a tool like Postman or cURL to make a POST request to `/api/data` with a JSON array of Data objects to trigger the jobs.
 
+5. Check the terminal logs.
+ > ![image](https://github.com/oruchankural/background-job/assets/77747739/767ea1d4-61b0-4cd3-b61a-c778a136e8e9)
+
+
 ## Project Structure
 
 - `Program.cs`: Main entry point for the application.
@@ -26,7 +30,8 @@ This is a basic example of using Quartz.NET as a scheduler in an ASP.NET Core ap
 - `Models/Data.cs`: A sample data model.
 - `appsettings.json`: Configuration settings (not used in this example).
 - [`requestBody.json`](https://github.com/oruchankural/background-job/blob/main/background-job/requestBody.json): Sample request body
-  
+
+
 ## Best Practices
 
 - Use dependency injection to manage the Quartz scheduler as a singleton service.
