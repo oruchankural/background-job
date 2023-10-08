@@ -1,4 +1,4 @@
-Quartz.NET Scheduler with ASP.NET Core
+###Quartz.NET Scheduler with ASP.NET Core
 This is a basic example of using Quartz.NET as a scheduler in an ASP.NET Core application to process data in batches. It schedules jobs to run at different times, 2 minutes apart, and ensures that jobs of the same type do not run concurrently.
 
 Prerequisites
