@@ -97,7 +97,7 @@ public class InsertLogToDatabase : IJob
         return Task.CompletedTask;
     }
 }
-
+// TODO: make it more generic
 public class Data
 {
     public int Id { get; set; }
