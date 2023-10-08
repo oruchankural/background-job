@@ -25,8 +25,8 @@ This is a basic example of using Quartz.NET as a scheduler in an ASP.NET Core ap
 - `Jobs/InsertLogToDatabase.cs`: The Quartz.NET job that processes data in batches.
 - `Models/Data.cs`: A sample data model.
 - `appsettings.json`: Configuration settings (not used in this example).
-- `requestBody.json`: Request body for POST request
-
+- [`requestBody.json`](https://github.com/oruchankural/background-job/blob/main/background-job/requestBody.json): Sample request body
+  
 ## Best Practices
 
 - Use dependency injection to manage the Quartz scheduler as a singleton service.
